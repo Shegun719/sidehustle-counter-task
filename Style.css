@@ -1,0 +1,61 @@
+ 
+  body{
+   background-image: url(../image/bk.jpg);
+ }
+ 
+ .container {
+   margin:30px auto;
+   border:1px solid white;
+   width: 70%;
+   height: 600px;
+   text-align: center;
+   box-shadow: 0px 3px 5px black;
+   transition: all: 0.3s;
+ }
+ h1{
+   color: white;
+   margin: 50px 0px;
+ }
+ 
+ #counter{  
+   margin: auto;
+   margin-bottom: 60px;
+   margin-bottom: 120px;
+   font-size: 12em;
+   font-weight: 900;
+   color: green;
+ }
+ 
+ 
+  .buttons{
+   position: relative; bottom: -250px;
+ }
+ 
+ #minus{
+   margin-bottom: 3px;
+   border-radius: 5px;
+   padding: 5px;
+   border: 0px;
+   box-shadow: 0px 3px 5px black;
+   background: rgb(27, 54, 97);
+   color: white;
+   botton-width: 50px;
+ }
+ #minus:hover{
+   background: rgba(27, 54, 97, 0.5);
+ }
+ 
+ #plus{
+   margin-top: 3px;
+   border-radius: 5px;
+   padding: 5px;
+   border: 0px;
+   box-shadow: 0px 3px 5px black;
+   background: rgb(27, 54, 97);
+   color: white;
+   botton-width: 40px;
+ }
+ 
+ #plus:hover{
+   background: rgba(27, 54, 97, 0.5);
+ } 

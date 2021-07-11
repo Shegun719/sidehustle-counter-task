@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sidehustle/countertask</title>
+  <link rel="stylesheet" href="CSS/style.css" />
+  
+</head>
+<body>
+  <div class="container">
+    <h1>COUNTER</h1>
+    <p id="counter">0</p>
+      <div class="bottons">
+        <div>
+          <button id="minus">LOWER COUNT</button>
+        <div>
+        <div>
+          <button id="plus">ADD COUNT</button>
+        </div>
+      </div>
+     
+          
+  </div> 
+  <script>
+  let int = 0;
+  number = int;
+  let min = 0;
+  let max = 50;
+  
+  
+    document.getElementById('plus').addEventListener('click', function(){
+      document.getElementById('counter').innerHTML = number
+     if (number < max){number = number + 1 };
+    } );
+    
+    document.getElementById('minus').addEventListener('click', function(){
+      document.getElementById('counter').innerHTML = number
+      if(number > min){number = number - 1};
+    } );
+    
+  </script>
+  
+  
+  
+</body>
+</html>
