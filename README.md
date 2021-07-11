@@ -7,4 +7,4 @@
 ##counter
  
 
- ![ ](./counter-javascript-Project.png)
+ ![](./counter-javascript-Project.png)
